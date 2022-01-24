@@ -1,0 +1,30 @@
+{
+  "name": "spobmgy",
+  "description": "spobmgy",
+  "keywords": [
+    "spobmgy"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/app",
+      "required": true
+    }
+  },
+  "website": "https://github.com/outpo/spobmgy",
+  "repository": "https://github.com/outpo/spobmgy",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
